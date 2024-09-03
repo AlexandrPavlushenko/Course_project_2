@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Python разработчик",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/106590135",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": null
+    },
+    {
+        "title": "Python Backend Developer",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/106654617",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Опыт работы в качестве Python developer от 3-ех лет. Знание фреймворков Django, FastApi или Flask. Знание Apache Airflow, Kafka..."
+    },
+    {
+        "title": "Разработчик Python",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/95196576",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Знакомы или готовы познакомиться с микросервисной архитектурой. Знаете принципы проектирования программного обеспечения. Пишите Unit тесты. Имеете минимальные знания SQL. "
+    },
+    {
+        "title": "Python/FastAPI/Django Developer (Офис)",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105661584",
+        "salary_from": 140000,
+        "salary_to": 180000,
+        "description": "Знать ООП и структур данных Python, асинхронность, gil, мультипроцессинг / мультитрединг. Уверенно работать с Django, Django REST, FastApi. Знать что такое..."
+    },
+    {
+        "title": "Python разработчик",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105877498",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Отличное знание Python 3 и опыт промышленной разработки на Python от трех лет. Опыт многопоточного и асинхронного программирования. "
+    },
+    {
+        "title": "Программист-разработчик Python",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/103058156",
+        "salary_from": 200000,
+        "salary_to": "0",
+        "description": "Опыт коммерческой разработки на Python от 2-х лет. Инженерно-техническое образование. Знание SQL и ORM. Опыт работы с СУБД..."
+    },
+    {
+        "title": "Python Developer",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105750443",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Более 5 лет опыта в разработке полного стека с акцентом на архитектуру программного обеспечения. Практический опыт в системном проектировании, разработке..."
+    },
+    {
+        "title": "Python разработчик в финтех-гигант",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/106592060",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Работаете на Python от 3 лет. Умеете многопоточно и асинхронно программировать. Свободно работаете с: FastApi, Flask или др. "
+    },
+    {
+        "title": "Автотестировщик / Auto QA Engineer (Python )​​​​​​​ middle) Офис",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/102702646",
+        "salary_from": "0",
+        "salary_to": 150000,
+        "description": "Сейчас мы ищем QA Automation Engineer(Python ) на проект Альфа-Банка в нашу крутую команду единомышленников.Auto- Опыт разработки на Python..."
+    },
+    {
+        "title": "Team lead Python (Офис)",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105710178",
+        "salary_from": "0",
+        "salary_to": 230000,
+        "description": "Знать ООП и структур данных Python, асинхронность, gil, мультипроцессинг / мультитрединг. Уверенно работать с Django, Django REST, FastApi. Знать что такое..."
+    },
+    {
+        "title": "Разработчик Python (senior, fullstack)",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/106520447",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Уверенное знание и опыт применения Python, Django, Celery, NextJS, Redux, Pandas, Numpy. Фуллстек (бэкенд+фронтенд) разработка web-порталов, умение разбираться в..."
+    },
+    {
+        "title": "Преподаватель компьютерных курсов для взрослых (Python, MS SQL, Java, Unity, Ajax, AngularJS, .NET)",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105800279",
+        "salary_from": 30000,
+        "salary_to": 95000,
+        "description": "Ответственность, пунктуальность, желание делиться знанием и опытом. - Знание или опыт работы в одной из предметных областей в сфере компьютерных технологий. - "
+    },
+    {
+        "title": "Преподаватель вводных курсов программирования для детей (Python&Scratch)",
+        "area": "Краснодар",
+        "url": "https://hh.ru/vacancy/105188513",
+        "salary_from": 60000,
+        "salary_to": "0",
+        "description": "Владение и понимание Python и Scratch. Грамотная устная и письменная речь. Опыт работы с детьми (преподаватель, куратор, наставник или вожатый). "
+    }
+]
