@@ -64,3 +64,4 @@ class TestVacancy(unittest.TestCase):
         with self.assertRaises(ValueError) as context:
             invalid_vacancy_3.validate()
         self.assertEqual(str(context.exception), "Название и ссылка на вакансию обязательны.")
+
