@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 import requests
 
 
@@ -17,7 +18,7 @@ class HHVacancyAPI(AbstractVacancyAPI):
     def __init__(self):
         """Инициализация атрибутов класса."""
         self.__base_url = "https://api.hh.ru/vacancies"
-        self.__area_url = 'https://api.hh.ru/areas'
+        self.__area_url = "https://api.hh.ru/areas"
 
     def fetch_vacancies(self, search_query: str, area: str = "", page: int = 0, per_page: int = 20):
         """Метод получения вакансий на сайте hh.ru
@@ -27,12 +28,7 @@ class HHVacancyAPI(AbstractVacancyAPI):
         :arg per_page - количество элементов на странице"""
 
         area_id = self.__fetch_area_id(area)
-        params = {
-            'text': f'NAME:{search_query}',
-            'area': area_id,
-            'page': page,
-            'per_page': per_page
-        }
+        params = {"text": f"NAME:{search_query}", "area": area_id, "page": page, "per_page": per_page}
 
         response = requests.get(self.__base_url, params=params)
         if response.status_code == 200:
@@ -52,24 +48,24 @@ class HHVacancyAPI(AbstractVacancyAPI):
                 return None
 
             for regions in data_list:
-                if 'areas' not in regions or not isinstance(regions['areas'], list):
+                if "areas" not in regions or not isinstance(regions["areas"], list):
                     print("Ошибка: в элементе отсутствует ключ 'areas' или он не является списком:", regions)
                     continue
 
-                for region in regions['areas']:
-                    if region['name'] == user_area:
-                        return int(region['id'])
-                    elif not region['areas']:
+                for region in regions["areas"]:
+                    if region["name"] == user_area:
+                        return int(region["id"])
+                    elif not region["areas"]:
                         continue
-                    for area in region['areas']:
-                        if area['name'] == user_area:
-                            return int(area['id'])
+                    for area in region["areas"]:
+                        if area["name"] == user_area:
+                            return int(area["id"])
         else:
             print("Ошибка при получении данных: ", response.status_code)
             return None
 
 
 # if __name__ == "__main__":
-    # a = HHVacancyAPI()
-    # for i in a.fetch_vacancies("python", "Москва"):
-    #     print(i)
+# a = HHVacancyAPI()
+# for i in a.fetch_vacancies("python", "Москва"):
+#     print(i)

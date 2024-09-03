@@ -1,9 +1,10 @@
-import unittest
-import os
 import json
+import os
+import unittest
 from tempfile import NamedTemporaryFile
-from src.vacancy_storage import JSONVacancyStorage  # Убедитесь, что путь правильный
+
 from src.vacancy import Vacancy
+from src.vacancy_storage import JSONVacancyStorage
 
 
 class TestJSONVacancyStorage(unittest.TestCase):
@@ -19,25 +20,31 @@ class TestJSONVacancyStorage(unittest.TestCase):
 
     def test_add_vacancy(self):
         """Тестирование добавления вакансии"""
-        vacancy = Vacancy("Программист", "Москва", "http://example.com/vacancy1", "100000", "150000",
-                          "Описание вакансии")
+        vacancy = Vacancy(
+            "Программист", "Москва", "http://example.com/vacancy1", "100000", "150000", "Описание вакансии"
+        )
         self.storage.add_vacancy(vacancy)
 
-        with open(self.temp_file.name, 'r', encoding='utf-8') as file:
+        with open(self.temp_file.name, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
 
         self.assertEqual(len(vacancies), 1)
-        self.assertEqual(vacancies[0]['title'], "Программист")
-        self.assertEqual(vacancies[0]['area'], "Москва")
+        self.assertEqual(vacancies[0]["title"], "Программист")
+        self.assertEqual(vacancies[0]["area"], "Москва")
 
     def test_get_vacancies(self):
         """Тестирование получения вакансий"""
-        vacancy1 = Vacancy("Программист", "Москва", "http://example.com/vacancy1",
-                           "100000", "150000",
-                           "Описание вакансии")
-        vacancy2 = Vacancy("Дизайнер", "Санкт-Петербург", "http://example.com/vacancy2",
-                           "80000", "120000",
-                           "Описание вакансии дизайнера")
+        vacancy1 = Vacancy(
+            "Программист", "Москва", "http://example.com/vacancy1", "100000", "150000", "Описание вакансии"
+        )
+        vacancy2 = Vacancy(
+            "Дизайнер",
+            "Санкт-Петербург",
+            "http://example.com/vacancy2",
+            "80000",
+            "120000",
+            "Описание вакансии дизайнера",
+        )
         self.storage.add_vacancy(vacancy1)
         self.storage.add_vacancy(vacancy2)
 
@@ -47,14 +54,14 @@ class TestJSONVacancyStorage(unittest.TestCase):
 
     def test_remove_vacancy(self):
         """Тестирование удаления вакансии"""
-        vacancy = Vacancy("Программист", "Москва", "http://example.com/vacancy1",
-                          "100000", "150000",
-                          "Описание вакансии")
+        vacancy = Vacancy(
+            "Программист", "Москва", "http://example.com/vacancy1", "100000", "150000", "Описание вакансии"
+        )
         self.storage.add_vacancy(vacancy)
 
         self.storage.remove_vacancy(vacancy)
 
-        with open(self.temp_file.name, 'r', encoding='utf-8') as file:
+        with open(self.temp_file.name, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
 
         self.assertEqual(len(vacancies), 0)

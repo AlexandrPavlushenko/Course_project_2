@@ -1,9 +1,9 @@
 import abc
 import json
 import os
+from typing import List
 
 from src.vacancy import Vacancy
-from typing import List
 
 
 class AbstractVacancyStorage(abc.ABC):
@@ -34,13 +34,13 @@ class JSONVacancyStorage(AbstractVacancyStorage):
     def add_vacancy(self, vacancy: Vacancy) -> None:
         """Добавление вакансии в JSON файл"""
         if os.path.exists(self.filename):
-            with open(self.filename, 'r', encoding='utf-8') as file:
+            with open(self.filename, "r", encoding="utf-8") as file:
                 vacancies = json.load(file)
         else:
             vacancies = []
 
         vacancies.append(vacancy.__dict__)
-        with open(self.filename, 'w', encoding='utf-8') as file:
+        with open(self.filename, "w", encoding="utf-8") as file:
             json.dump(vacancies, file, ensure_ascii=False, indent=4)
 
     def get_vacancies(self, criterion: str) -> List[Vacancy]:
@@ -48,20 +48,20 @@ class JSONVacancyStorage(AbstractVacancyStorage):
         if not os.path.exists(self.filename):
             return []
 
-        with open(self.filename, 'r', encoding='utf-8') as file:
+        with open(self.filename, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
 
-        return [Vacancy(**job) for job in vacancies if criterion.lower() in job['description'].lower()]
+        return [Vacancy(**job) for job in vacancies if criterion.lower() in job["description"].lower()]
 
     def remove_vacancy(self, vacancy: Vacancy) -> None:
         """Удаление вакансии из JSON файла"""
         if not os.path.exists(self.filename):
             return
 
-        with open(self.filename, 'r', encoding='utf-8') as file:
+        with open(self.filename, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
 
-        vacancies = [job for job in vacancies if not (job['title'] == vacancy.title and job['url'] == vacancy.url)]
+        vacancies = [job for job in vacancies if not (job["title"] == vacancy.title and job["url"] == vacancy.url)]
 
-        with open(self.filename, 'w', encoding='utf-8') as file:
+        with open(self.filename, "w", encoding="utf-8") as file:
             json.dump(vacancies, file)
