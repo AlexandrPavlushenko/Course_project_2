@@ -13,8 +13,8 @@ class Vacancy:
         self.title: str = title
         self.area: str = area
         self.url: str = url
-        self.salary_from: str = salary_from if salary_from else "---"
-        self.salary_to: str = salary_to if salary_to else "---"
+        self.salary_from: str = salary_from if salary_from else 0
+        self.salary_to: str = salary_to if salary_to else 0
 
         self.description: str = description
 

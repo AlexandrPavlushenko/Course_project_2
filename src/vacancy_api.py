@@ -19,7 +19,7 @@ class HHVacancyAPI(AbstractVacancyAPI):
         self.__base_url = "https://api.hh.ru/vacancies"
         self.__area_url = 'https://api.hh.ru/areas'
 
-    def fetch_vacancies(self, search_query: str, area: str = "", page: int = 0, per_page: int = 10):
+    def fetch_vacancies(self, search_query: str, area: str = "", page: int = 0, per_page: int = 20):
         """Метод получения вакансий на сайте hh.ru
         :arg search_query - поисковый запрос,
         :arg area - название населенного пункта,
