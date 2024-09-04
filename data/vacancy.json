@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Python Backend Developer",
+        "area": "Астана",
+        "url": "https://hh.ru/vacancy/106648568",
+        "salary_from": 250000,
+        "salary_to": 400000,
+        "description": "Уверенные знания Python (3.x) и опыт разработки на нем от 2 лет. Опыт работы с фреймворками Django или Flask. "
+    },
+    {
+        "title": "Junior Python разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106571399",
+        "salary_from": 125000,
+        "salary_to": "0",
+        "description": "Базовые знания Python. Понимание ООП. Опыт работы с фреймворками (например, Django, Flask). Знание SQL. Базовые знания HTML, CSS, JavaScript. "
+    },
+    {
+        "title": "Junior Python Developer",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106080127",
+        "salary_from": 70000,
+        "salary_to": 100000,
+        "description": "Есть коммерческий опыт разработки около 1 года. У тебя уровень знания python выше начального/средний. Есть опыт с pytest (слышал..."
+    },
+    {
+        "title": "Бекенд разработчик в Gamedev (Python)",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106619212",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Рассмотрим с опытом и без на соответствующую роль в команду. Ищем бекенд разработчика для игр, в основном WebGL. "
+    },
+    {
+        "title": "Junior Python-разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106793807",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Опыт работы от полугода (бекенд для веб приложений с реализацией бизнес-логики как преимущество). Способность работать над задачами с проработанными..."
+    },
+    {
+        "title": "Junior Python developer",
+        "area": "Санкт-Петербург",
+        "url": "https://hh.ru/vacancy/106511056",
+        "salary_from": "0",
+        "salary_to": 60000,
+        "description": "Знаешь Python и имеешь опыт написания pet-проектов. Знаком(а) с Django и Flask/Fast API. Понимаешь СУБД и можешь..."
+    },
+    {
+        "title": "Программист Python",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106781629",
+        "salary_from": 180000,
+        "salary_to": 250000,
+        "description": "Отличное знание технологий и фреймворков: Django, DRF, FastAPI, RabbitMQ, Celery. Опыт работы с базами данных (PostgreSQL). Опыт интеграции с внешними..."
+    },
+    {
+        "title": "Junior Python Developer",
+        "area": "Алматы",
+        "url": "https://hh.ru/vacancy/105374028",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Basic knowledge of Python or 1 year in a role focused on Python backend development (perfectly with Django framework). "
+    },
+    {
+        "title": "Программист Python (Джуниор)",
+        "area": "Екатеринбург",
+        "url": "https://hh.ru/vacancy/106396567",
+        "salary_from": 35000,
+        "salary_to": 60000,
+        "description": "Python. PHP. API. SQL – написание запросов простых и средней сложности. Коммуникабельность, логическое мышление, точность. Способность быстро разобраться в нештатных ситуациях..."
+    },
+    {
+        "title": "Senior Python-разработчик",
+        "area": "Санкт-Петербург",
+        "url": "https://hh.ru/vacancy/106103863",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Опыт разработки на python – от 4 лет. Понимание принципов клиент-серверного взаимодействия (в том числе REST API, WebSocket). "
+    },
+    {
+        "title": "Python-разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106791971",
+        "salary_from": 100000,
+        "salary_to": 120000,
+        "description": "Опыт разработки на Python от 2-х лет. Опыт с FastAPI, Pydantic. Опыт работы с базами данных, включая написание SQL..."
+    },
+    {
+        "title": "Python-разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106086203",
+        "salary_from": 100000,
+        "salary_to": "0",
+        "description": null
+    },
+    {
+        "title": "Junior Python разработчик",
+        "area": "Санкт-Петербург",
+        "url": "https://hh.ru/vacancy/106673448",
+        "salary_from": 60000,
+        "salary_to": "0",
+        "description": "Требуемый опыт работы: от года. Архитектура вычислительных систем (70 ч);Вычислительная математика (100 ч). Компьютерные сети ( 70 ч). "
+    },
+    {
+        "title": "Python Разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106502173",
+        "salary_from": 150000,
+        "salary_to": "0",
+        "description": "Уверенное владение Python и FastAPI от 2х лет. Понимание и умение писать асинхронный код. Умение обрабатывать данные в python."
+    },
+    {
+        "title": "Аналитик данных (Python)",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106505774",
+        "salary_from": 100000,
+        "salary_to": 130000,
+        "description": "Опыт работы с данными от 1 года. Знание Python и библиотек для анализа данных (в основном используется Pandas). "
+    },
+    {
+        "title": "Backend разработчик (Python)",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106724516",
+        "salary_from": 60000,
+        "salary_to": "0",
+        "description": "Обязательно профильное образование или обучение в ВУЗ на техническом факультете. Опыт разработки на Python. Опыт web-разработки с применением Django..."
+    },
+    {
+        "title": "Python-программист (Python backend developer)",
+        "area": "Барнаул",
+        "url": "https://hh.ru/vacancy/106787113",
+        "salary_from": 100000,
+        "salary_to": "0",
+        "description": "Умение планировать свое время, правильно расставлять приоритеты и ответственно подходить к соблюдению сроков решения задач и качеству исполнения. "
+    },
+    {
+        "title": "Python-разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106489261",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Для успешного прохождения конкурсного отбора, необходимы следующие знания и навыки: Опыт работы в качестве Python разработчика не менее 3-х..."
+    },
+    {
+        "title": "Middle Python разработчик",
+        "area": "Москва",
+        "url": "https://hh.ru/vacancy/106723225",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Коммерческий опыт работы на python от 2х лет. Опыт разработки на FastApi. Понимание разницы между многопоточность и асинхронность; многопроцессорность..."
+    },
+    {
+        "title": "Разработчик Python Junior",
+        "area": "Санкт-Петербург",
+        "url": "https://hh.ru/vacancy/105931326",
+        "salary_from": "0",
+        "salary_to": "0",
+        "description": "Учитываются опыт работы и знания в следующих областях (чем больше, тем лучше): Работа с SQL/NoSQL базами данных: Postgresql, MySQL..."
+    }
+]
