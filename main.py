@@ -41,7 +41,8 @@ def main() -> None:
                     print("Вы ввели не число")
                     continue
                 all_vacancies = storage.get_vacancies("")
-                top_vacancies = sorted(all_vacancies,  reverse=True)
+
+                top_vacancies = sorted(all_vacancies, reverse=True)
                 if len(top_vacancies) >= int(top_amount):
                     for vacancy in top_vacancies[:int(top_amount)]:
                         print(vacancy)

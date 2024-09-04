@@ -50,8 +50,7 @@ class JSONVacancyStorage(AbstractVacancyStorage):
 
         with open(self.filename, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
-
-        return [Vacancy(**job) for job in vacancies if criterion.lower() in job["description"].lower()]
+            return [Vacancy(**job) for job in vacancies if criterion.lower() in str(job["description"]).lower()]
 
     def remove_vacancy(self, vacancy: Vacancy) -> None:
         """Удаление вакансии из JSON файла"""
